@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(141, 77, 141);
+}
+
+.content-all {
+    width: 210px;
+    margin: auto;
+    perspective: 1000px;
+    position: relative;
+    margin-top: 10%;
+}
+
+.contenido-slide {
+    width: 100%;
+    position: absolute;
+    transform-style: preserve-3d;
+}
+
+.contenido-slide figure {
+    width: 300px;
+    height: 160px;
+    overflow: hidden;
+    position: absolute;
+
+
+}
+
+
+.contenido-slide figure:nth-child(1) {
+    transform: rotateY(0deg) translateZ(415px);
+}
+
+.contenido-slide figure:nth-child(2) {
+    transform: rotateY(45deg) translateZ(415px);
+}
+
+.contenido-slide figure:nth-child(3) {
+    transform: rotateY(90deg) translateZ(415px);
+}
+
+.contenido-slide figure:nth-child(4) {
+    transform: rotateY(135deg) translateZ(415px);
+}
+
+.contenido-slide figure:nth-child(5) {
+    transform: rotateY(180deg) translateZ(415px);
+}
+
+.contenido-slide figure:nth-child(6) {
+    transform: rotateY(225deg) translateZ(415px);
+}
+
+.contenido-slide figure:nth-child(7) {
+    transform: rotateY(270deg) translateZ(415px);
+}
+
+.contenido-slide figure:nth-child(8) {
+    transform: rotateY(315deg) translateZ(415px);
+}
+
+.contenido-slide figure:nth-child(9) {
+    transform: rotateY(360deg) translateZ(415px);
+}
+
+
+
+.contenido-slide img {
+    width: 100%;
+
+
+}
+
+
+.botones {
+    text-align: center;
+    margin-top: 29%
+}
+
+.botones button {
+
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: 2px solid #0c0c0c;
+    border-radius: 5px;
+    background-color: #db3434;
+    color: rgb(230, 230, 230);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.botones button:hover {
+    background-color: rgb(230, 85, 2);
+    transform: scale(1.1);
+   
+}
+
+h2 {
+    text-align: center;
+    margin-top: 5%;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
